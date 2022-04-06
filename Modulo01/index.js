@@ -4,7 +4,7 @@
   const server = express();
 
   server.use(express.json());
-
+     
   const users = ['Diogo', 'Robson', 'Victor'];
   
   server.get('/users', (req,res) => {
